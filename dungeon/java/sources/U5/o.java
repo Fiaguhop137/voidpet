@@ -1,0 +1,35 @@
+package U5;
+
+import android.app.ActivityManager;
+import java.util.concurrent.TimeUnit;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class o implements V4.n {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private static final long f13160b = TimeUnit.MINUTES.toMillis(5);
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private final ActivityManager f13161a;
+
+    public o(ActivityManager activityManager) {
+        this.f13161a = activityManager;
+    }
+
+    private int b() {
+        int iMin = Math.min(this.f13161a.getMemoryClass() * 1048576, Integer.MAX_VALUE);
+        if (iMin < 33554432) {
+            return 4194304;
+        }
+        if (iMin < 67108864) {
+            return 6291456;
+        }
+        return iMin / 4;
+    }
+
+    @Override // V4.n
+    /* JADX INFO: renamed from: a, reason: merged with bridge method [inline-methods] */
+    public y get() {
+        return new y(b(), 256, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, f13160b);
+    }
+}

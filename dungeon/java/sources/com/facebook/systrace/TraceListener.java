@@ -1,0 +1,5 @@
+package com.facebook.systrace;
+
+/* JADX INFO: loaded from: classes2.dex */
+public interface TraceListener {
+}

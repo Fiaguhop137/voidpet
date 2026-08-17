@@ -1,0 +1,14 @@
+package p432y0;
+
+import android.graphics.Point;
+import android.graphics.Rect;
+import android.view.ScrollCaptureCallback;
+import android.view.ScrollCaptureTarget;
+import android.view.View;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class h {
+    public static /* synthetic */ ScrollCaptureTarget a(View view, Rect rect, Point point, ScrollCaptureCallback scrollCaptureCallback) {
+        return new ScrollCaptureTarget(view, rect, point, scrollCaptureCallback);
+    }
+}

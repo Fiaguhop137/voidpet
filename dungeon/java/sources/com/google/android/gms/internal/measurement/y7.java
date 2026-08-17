@@ -1,0 +1,24 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class y7 implements x7 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final AbstractC2559o4 f33270a;
+
+    static {
+        C2505i4 c2505i4B = new C2505i4(AbstractC2460d4.a("com.google.android.gms.measurement")).a().b();
+        f33270a = c2505i4B.d("measurement.session_stitching_token_enabled", false);
+        c2505i4B.d("measurement.link_sst_to_sid", true);
+    }
+
+    @Override // com.google.android.gms.internal.measurement.x7
+    public final boolean zza() {
+        return true;
+    }
+
+    @Override // com.google.android.gms.internal.measurement.x7
+    public final boolean zzb() {
+        return ((Boolean) f33270a.d()).booleanValue();
+    }
+}

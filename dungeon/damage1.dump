@@ -1,0 +1,22 @@
+       4557040    CreateEnvironment r0
+       4557042    LoadParam         r4, 1
+       4557045    GetGlobalObject   r1
+       4557047    TryGetById        r3, r1, 1, "Set"
+       4557053    GetByIdShort      r2, r4, 2, "map"
+       4557058    CreateClosure     r1, r0, NCFunction<>34350
+       4557063    Call2             r7, r2, r4, r1
+       4557068    GetByIdShort      r2, r3, 3, "prototype"
+       4557073    CreateThis        r2, r2, r3
+       4557077    Mov               r8, r2
+       4557080    Construct         r1, r3, 2
+       4557084    SelectObject      r6, r2, r1
+       4557088    NewArray          r2, 0
+       4557092    LoadConstZero     r5
+       4557094    Mov               r7, r2
+       4557097    CallBuiltin       r1, "HermesBuiltin.arraySpread", 4
+       4557101    GetById           r1, r2, 4, "sort"
+       4557107    CreateClosure     r0, r0, NCFunction<>34351
+       4557112    Call2             r0, r1, r2, r0
+       4557117    Ret               r0
+
+

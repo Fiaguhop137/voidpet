@@ -1,0 +1,19 @@
+package com.facebook.react.bridge;
+
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class w implements Function0 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ ReadableNativeArray f29501a;
+
+    public /* synthetic */ w(ReadableNativeArray readableNativeArray) {
+        this.f29501a = readableNativeArray;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        return ReadableNativeArray.localArray_delegate$lambda$0(this.f29501a);
+    }
+}

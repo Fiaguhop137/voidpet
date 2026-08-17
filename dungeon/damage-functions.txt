@@ -1,0 +1,293 @@
+88892-    "Size": 43,
+88893-    "Name": "scaleValueChange"
+88894-  },
+88895-  {
+88896-    "FunctionID": 12699,
+88897-    "Offset": 7388621,
+88898-    "VirtualOffset": 1606784,
+88899-    "Size": 547,
+88900:    "Name": "createRaptureSingleHitDamageChange"
+88901-  },
+88902-  {
+88903-    "FunctionID": 12700,
+88904-    "Offset": 7389168,
+88905-    "VirtualOffset": 1607331,
+88906-    "Size": 93,
+88907-    "Name": "createRaptureUsageEffect"
+88908-  },
+--
+88934-    "Size": 9,
+88935-    "Name": "get"
+88936-  },
+88937-  {
+88938-    "FunctionID": 12705,
+88939-    "Offset": 7390222,
+88940-    "VirtualOffset": 1608403,
+88941-    "Size": 141,
+88942:    "Name": "createDamageChanges"
+88943-  },
+88944-  {
+88945-    "FunctionID": 12706,
+88946-    "Offset": 7390363,
+88947-    "VirtualOffset": 1608544,
+88948-    "Size": 381,
+88949-    "Name": ""
+88950-  },
+--
+89438-    "Size": 221,
+89439-    "Name": "getArctusConfig"
+89440-  },
+89441-  {
+89442-    "FunctionID": 12777,
+89443-    "Offset": 7399600,
+89444-    "VirtualOffset": 1618159,
+89445-    "Size": 19,
+89446:    "Name": "getArctusDamageTakenPerChillEffectLevelForStage"
+89447-  },
+89448-  {
+89449-    "FunctionID": 12778,
+89450-    "Offset": 7399619,
+89451-    "VirtualOffset": 1618178,
+89452-    "Size": 19,
+89453:    "Name": "getArctusDamageTakenPerChillEffectLevel"
+89454-  },
+89455-  {
+89456-    "FunctionID": 12779,
+89457-    "Offset": 7399638,
+89458-    "VirtualOffset": 1618197,
+89459-    "Size": 19,
+89460-    "Name": "getSyclinderConfig"
+89461-  },
+--
+90551-    "Size": 9,
+90552-    "Name": "get"
+90553-  },
+90554-  {
+90555-    "FunctionID": 12936,
+90556-    "Offset": 7426746,
+90557-    "VirtualOffset": 1646022,
+90558-    "Size": 102,
+90559:    "Name": "getAmbushEncounterDamageTargetHp"
+90560-  },
+90561-  {
+90562-    "FunctionID": 12937,
+90563-    "Offset": 7426848,
+90564-    "VirtualOffset": 1646124,
+90565-    "Size": 124,
+90566-    "Name": ""
+90567-  },
+--
+96557-    "Size": 59,
+96558-    "Name": "getArctusChillEffectLevel"
+96559-  },
+96560-  {
+96561-    "FunctionID": 13794,
+96562-    "Offset": 7562506,
+96563-    "VirtualOffset": 1784842,
+96564-    "Size": 79,
+96565:    "Name": "getArctusChillDamageTakenMultiplier"
+96566-  },
+96567-  {
+96568-    "FunctionID": 13795,
+96569-    "Offset": 7562585,
+96570-    "VirtualOffset": 1784921,
+96571-    "Size": 109,
+96572-    "Name": "getFlashFreezeArmorIgnore"
+96573-  },
+--
+97103-    "Size": 33,
+97104-    "Name": ""
+97105-  },
+97106-  {
+97107-    "FunctionID": 13872,
+97108-    "Offset": 7577585,
+97109-    "VirtualOffset": 1800517,
+97110-    "Size": 1298,
+97111:    "Name": "getHpScalingDamageMultiplier"
+97112-  },
+97113-  {
+97114-    "FunctionID": 13873,
+97115-    "Offset": 7578883,
+97116-    "VirtualOffset": 1801815,
+97117-    "Size": 100,
+97118-    "Name": "maybeApplySquidHatDefenseDown"
+97119-  },
+--
+97663-    "Size": 181,
+97664-    "Name": "setOnDispelTargetAndSource"
+97665-  },
+97666-  {
+97667-    "FunctionID": 13952,
+97668-    "Offset": 7595354,
+97669-    "VirtualOffset": 1818792,
+97670-    "Size": 79,
+97671:    "Name": "getDeathSwarmRemainingPopDamage"
+97672-  },
+97673-  {
+97674-    "FunctionID": 13953,
+97675-    "Offset": 7595433,
+97676-    "VirtualOffset": 1818871,
+97677-    "Size": 121,
+97678-    "Name": "createDeathSwarmPopChange"
+97679-  },
+97680-  {
+97681-    "FunctionID": 13954,
+97682-    "Offset": 7595554,
+97683-    "VirtualOffset": 1818992,
+97684-    "Size": 133,
+97685:    "Name": "getLingeringMalaiseRemainingPopDamage"
+97686-  },
+97687-  {
+97688-    "FunctionID": 13955,
+97689-    "Offset": 7595687,
+97690-    "VirtualOffset": 1819125,
+97691-    "Size": 115,
+97692-    "Name": "createLingeringMalaisePopChange"
+97693-  },
+--
+100043-    "Size": 100,
+100044-    "Name": "aiPickTargetForSpeedDown"
+100045-  },
+100046-  {
+100047-    "FunctionID": 14292,
+100048-    "Offset": 7665998,
+100049-    "VirtualOffset": 1891101,
+100050-    "Size": 186,
+100051:    "Name": "aiPickTargetForDamageOverTime"
+100052-  },
+100053-  {
+100054-    "FunctionID": 14293,
+100055-    "Offset": 7666184,
+100056-    "VirtualOffset": 1891287,
+100057-    "Size": 89,
+100058-    "Name": ""
+100059-  },
+--
+240351-    "Size": 85,
+240352-    "Name": "dmgTypeToScalingStat"
+240353-  },
+240354-  {
+240355-    "FunctionID": 34336,
+240356-    "Offset": 10247452,
+240357-    "VirtualOffset": 4554483,
+240358-    "Size": 540,
+240359:    "Name": "firstNamedEffectDamageForDeck"
+240360-  },
+240361-  {
+240362-    "FunctionID": 34337,
+240363-    "Offset": 10247992,
+240364-    "VirtualOffset": 4555023,
+240365-    "Size": 351,
+240366:    "Name": "summarizeDeckAbilityPrimaryDamage"
+240367-  },
+240368-  {
+240369-    "FunctionID": 34338,
+240370-    "Offset": 10248343,
+240371-    "VirtualOffset": 4555374,
+240372-    "Size": 712,
+240373-    "Name": ""
+240374-  },
+--
+240435-    "Size": 9,
+240436-    "Name": "get"
+240437-  },
+240438-  {
+240439-    "FunctionID": 34348,
+240440-    "Offset": 10249672,
+240441-    "VirtualOffset": 4556969,
+240442-    "Size": 71,
+240443:    "Name": "deckDamageToDisplay"
+240444-  },
+240445-  {
+240446-    "FunctionID": 34349,
+240447-    "Offset": 10249743,
+240448-    "VirtualOffset": 4557040,
+240449-    "Size": 79,
+240450:    "Name": "uniqueSortedDamageValues"
+240451-  },
+240452-  {
+240453-    "FunctionID": 34350,
+240454-    "Offset": 10249822,
+240455-    "VirtualOffset": 4557119,
+240456-    "Size": 34,
+240457-    "Name": ""
+240458-  },
+--
+240680-    "Size": 31,
+240681-    "Name": "toHpPercentValue"
+240682-  },
+240683-  {
+240684-    "FunctionID": 34383,
+240685-    "Offset": 10253567,
+240686-    "VirtualOffset": 4560949,
+240687-    "Size": 79,
+240688:    "Name": "uniqueSortedDamageValues"
+240689-  },
+240690-  {
+240691-    "FunctionID": 34384,
+240692-    "Offset": 10249822,
+240693-    "VirtualOffset": 4561028,
+240694-    "Size": 34,
+240695-    "Name": ""
+240696-  },
+--
+240939-    "Size": 29,
+240940-    "Name": "skillsDeckThumbOrbGlowStyle"
+240941-  },
+240942-  {
+240943-    "FunctionID": 34420,
+240944-    "Offset": 10265526,
+240945-    "VirtualOffset": 4573489,
+240946-    "Size": 839,
+240947:    "Name": "DamageFill"
+240948-  },
+240949-  {
+240950-    "FunctionID": 34421,
+240951-    "Offset": 10266365,
+240952-    "VirtualOffset": 4574328,
+240953-    "Size": 1930,
+240954:    "Name": "SkillsDeckDamageBadge"
+240955-  },
+240956-  {
+240957-    "FunctionID": 34422,
+240958-    "Offset": 7879043,
+240959-    "VirtualOffset": 4576258,
+240960-    "Size": 18,
+240961-    "Name": ""
+240962-  },
+--
+248961-    "Size": 9,
+248962-    "Name": "get"
+248963-  },
+248964-  {
+248965-    "FunctionID": 35566,
+248966-    "Offset": 10471216,
+248967-    "VirtualOffset": 4784135,
+248968-    "Size": 756,
+248969:    "Name": "DamageBar"
+248970-  },
+248971-  {
+248972-    "FunctionID": 35567,
+248973-    "Offset": 10471972,
+248974-    "VirtualOffset": 4784891,
+248975-    "Size": 190,
+248976-    "Name": ""
+248977-  },
+--
+260840-    "Size": 218,
+260841-    "Name": "AdSimulatorPreviewScreenTsx2"
+260842-  },
+260843-  {
+260844-    "FunctionID": 37263,
+260845-    "Offset": 10710319,
+260846-    "VirtualOffset": 5030251,
+260847-    "Size": 308,
+260848:    "Name": "getSkillDamage"
+260849-  },
+260850-  {
+260851-    "FunctionID": 37264,
+260852-    "Offset": 10710627,
+260853-    "VirtualOffset": 5030559,
+260854-    "Size": 240,
+260855-    "Name": "handleSkillSelect"
+260856-  },

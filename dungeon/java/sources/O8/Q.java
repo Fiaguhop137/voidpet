@@ -1,0 +1,9 @@
+package O8;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class Q implements L7.g {
+    @Override // L7.g
+    public final Object apply(Object obj) {
+        return (byte[]) obj;
+    }
+}

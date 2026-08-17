@@ -1,0 +1,311 @@
+package p350t8;
+
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.tasks.TaskCompletionSource;
+import p135h8.b;
+import p170j8.AbstractC3836b;
+
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class g {
+    public static void a(TaskCompletionSource taskCompletionSource, SecurityException securityException) {
+        if (taskCompletionSource != null) {
+            taskCompletionSource.trySetException(new b(e.b(4)));
+        }
+    }
+
+    /* JADX WARN: Code duplicated, block: B:101:0x014c  */
+    public static void b(TaskCompletionSource taskCompletionSource, int i10) {
+        int i11;
+        Status statusA = s.a(i10);
+        int iC4 = statusA.c4();
+        if (iC4 == 1) {
+            i11 = 8;
+        } else if (iC4 == 2) {
+            i11 = 26502;
+        } else if (iC4 == 3) {
+            i11 = 26503;
+        } else if (iC4 == 4) {
+            i11 = 26504;
+        } else if (iC4 == 5) {
+            i11 = 26505;
+        } else if (iC4 == 6) {
+            i11 = 26506;
+        } else if (iC4 == 7) {
+            i11 = 26507;
+        } else if (iC4 == 1500) {
+            i11 = 26540;
+        } else if (iC4 != 1501) {
+            switch (iC4) {
+                case 7:
+                    i11 = 26507;
+                    break;
+                case 8:
+                    i11 = 26508;
+                    break;
+                case 9:
+                    i11 = 26509;
+                    break;
+                case 500:
+                    i11 = 26520;
+                    break;
+                case 9000:
+                    i11 = 26620;
+                    break;
+                case 9001:
+                    i11 = 26621;
+                    break;
+                case 9002:
+                    i11 = 26622;
+                    break;
+                case 9003:
+                    i11 = 26623;
+                    break;
+                case 9004:
+                    i11 = 26624;
+                    break;
+                case 9006:
+                    i11 = 26625;
+                    break;
+                case 9009:
+                    i11 = 26626;
+                    break;
+                case 9010:
+                    i11 = 26627;
+                    break;
+                case 9011:
+                    i11 = 26628;
+                    break;
+                case 9012:
+                    i11 = 26629;
+                    break;
+                case 9016:
+                    i11 = 26630;
+                    break;
+                case 9017:
+                    i11 = 26631;
+                    break;
+                case 9018:
+                    i11 = 26632;
+                    break;
+                case 9200:
+                    i11 = 26650;
+                    break;
+                case 9202:
+                    i11 = 26652;
+                    break;
+                case 10000:
+                    i11 = 26700;
+                    break;
+                case 10001:
+                    i11 = 26701;
+                    break;
+                case 10002:
+                    i11 = 26702;
+                    break;
+                case 10003:
+                    i11 = 26703;
+                    break;
+                case 10004:
+                    i11 = 26704;
+                    break;
+                default:
+                    switch (iC4) {
+                        case 1000:
+                            i11 = 26530;
+                            break;
+                        case 1001:
+                            i11 = 26531;
+                            break;
+                        case 1002:
+                            i11 = 26532;
+                            break;
+                        case 1003:
+                            i11 = 26533;
+                            break;
+                        case 1004:
+                            i11 = 26534;
+                            break;
+                        case 1005:
+                            i11 = 26535;
+                            break;
+                        case 1006:
+                            i11 = 26536;
+                            break;
+                        default:
+                            switch (iC4) {
+                                case 2000:
+                                    i11 = 26550;
+                                    break;
+                                case 2001:
+                                    i11 = 26551;
+                                    break;
+                                case 2002:
+                                    i11 = 26552;
+                                    break;
+                                default:
+                                    switch (iC4) {
+                                        case 3000:
+                                            i11 = 26560;
+                                            break;
+                                        case 3001:
+                                            i11 = 26561;
+                                            break;
+                                        case 3002:
+                                            i11 = 26562;
+                                            break;
+                                        case 3003:
+                                            i11 = 26563;
+                                            break;
+                                        default:
+                                            switch (iC4) {
+                                                case 4000:
+                                                    i11 = 26570;
+                                                    break;
+                                                case 4001:
+                                                    i11 = 26571;
+                                                    break;
+                                                case 4002:
+                                                    i11 = 26572;
+                                                    break;
+                                                case 4003:
+                                                    i11 = 26573;
+                                                    break;
+                                                case 4004:
+                                                    i11 = 26574;
+                                                    break;
+                                                case 4005:
+                                                    i11 = 26575;
+                                                    break;
+                                                case 4006:
+                                                    i11 = 26576;
+                                                    break;
+                                                default:
+                                                    switch (iC4) {
+                                                        case 6000:
+                                                            i11 = 26580;
+                                                            break;
+                                                        case 6001:
+                                                            i11 = 26581;
+                                                            break;
+                                                        case 6002:
+                                                            i11 = 26582;
+                                                            break;
+                                                        case 6003:
+                                                            i11 = 26583;
+                                                            break;
+                                                        case 6004:
+                                                            i11 = 26584;
+                                                            break;
+                                                        default:
+                                                            switch (iC4) {
+                                                                case 6500:
+                                                                    i11 = 26590;
+                                                                    break;
+                                                                case 6501:
+                                                                    i11 = 26591;
+                                                                    break;
+                                                                case 6502:
+                                                                    i11 = 26592;
+                                                                    break;
+                                                                case 6503:
+                                                                    i11 = 26593;
+                                                                    break;
+                                                                case 6504:
+                                                                    i11 = 26594;
+                                                                    break;
+                                                                case 6505:
+                                                                    i11 = 26595;
+                                                                    break;
+                                                                case 6506:
+                                                                    i11 = 26596;
+                                                                    break;
+                                                                case 6507:
+                                                                    i11 = 26597;
+                                                                    break;
+                                                                default:
+                                                                    switch (iC4) {
+                                                                        case 7000:
+                                                                            i11 = 26600;
+                                                                            break;
+                                                                        case 7001:
+                                                                            i11 = 26601;
+                                                                            break;
+                                                                        case 7002:
+                                                                            i11 = 26602;
+                                                                            break;
+                                                                        case 7003:
+                                                                            i11 = 26603;
+                                                                            break;
+                                                                        case 7004:
+                                                                            i11 = 26604;
+                                                                            break;
+                                                                        case 7005:
+                                                                            i11 = 26605;
+                                                                            break;
+                                                                        case 7006:
+                                                                            i11 = 26606;
+                                                                            break;
+                                                                        case 7007:
+                                                                            i11 = 26607;
+                                                                            break;
+                                                                        default:
+                                                                            switch (iC4) {
+                                                                                case 8000:
+                                                                                    i11 = 26610;
+                                                                                    break;
+                                                                                case 8001:
+                                                                                    i11 = 26611;
+                                                                                    break;
+                                                                                case 8002:
+                                                                                    i11 = 26612;
+                                                                                    break;
+                                                                                case 8003:
+                                                                                    i11 = 26613;
+                                                                                    break;
+                                                                                default:
+                                                                                    i11 = iC4;
+                                                                                    break;
+                                                                            }
+                                                                            break;
+                                                                    }
+                                                                    break;
+                                                            }
+                                                            break;
+                                                    }
+                                                    break;
+                                            }
+                                            break;
+                                    }
+                                    break;
+                            }
+                            break;
+                    }
+                    break;
+            }
+        } else {
+            i11 = 26541;
+        }
+        if (i11 != statusA.c4()) {
+            if (!s.b(statusA.c4()).equals(statusA.d4())) {
+                switch (iC4) {
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 10:
+                        break;
+                    case 9:
+                    default:
+                        statusA = new Status(i11, statusA.d4(), statusA.b4());
+                        break;
+                }
+            } else {
+                statusA = e.c(i11, statusA.b4());
+            }
+        }
+        taskCompletionSource.setException(AbstractC3836b.a(statusA));
+    }
+}

@@ -1,0 +1,48 @@
+package com.appsflyer.internal;
+
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class AFi1jSDK {
+
+    @Nullable
+    public final String AFAdRevenueData;
+    public final long getCurrencyIso4217Code;
+    public final long getMediationNetwork;
+
+    @Nullable
+    public final String getRevenue;
+
+    public AFi1jSDK(long j10, long j11, @Nullable String str, @Nullable String str2) {
+        this.getMediationNetwork = j10;
+        this.getCurrencyIso4217Code = j11;
+        this.getRevenue = str;
+        this.AFAdRevenueData = str2;
+    }
+
+    public final boolean equals(@Nullable Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof AFi1jSDK)) {
+            return false;
+        }
+        AFi1jSDK aFi1jSDK = (AFi1jSDK) obj;
+        return this.getMediationNetwork == aFi1jSDK.getMediationNetwork && this.getCurrencyIso4217Code == aFi1jSDK.getCurrencyIso4217Code && Intrinsics.b(this.getRevenue, aFi1jSDK.getRevenue) && Intrinsics.b(this.AFAdRevenueData, aFi1jSDK.AFAdRevenueData);
+    }
+
+    public final int hashCode() {
+        int iHashCode = ((Long.hashCode(this.getMediationNetwork) * 31) + Long.hashCode(this.getCurrencyIso4217Code)) * 31;
+        String str = this.getRevenue;
+        int iHashCode2 = (iHashCode + (str == null ? 0 : str.hashCode())) * 31;
+        String str2 = this.AFAdRevenueData;
+        return iHashCode2 + (str2 != null ? str2.hashCode() : 0);
+    }
+
+    @NotNull
+    public final String toString() {
+        return "PlayIntegrityApiData(piaTimestamp=" + this.getMediationNetwork + ", ttrMillis=" + this.getCurrencyIso4217Code + ", piaToken=" + this.getRevenue + ", errorCode=" + this.AFAdRevenueData + ")";
+    }
+}

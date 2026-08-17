@@ -1,0 +1,8 @@
+package L8;
+
+import com.google.android.gms.tasks.Task;
+
+/* JADX INFO: loaded from: classes2.dex */
+interface D {
+    Task a(I0 i10);
+}

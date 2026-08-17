@@ -1,0 +1,40 @@
+package com.google.android.gms.dynamite;
+
+import android.content.Context;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class i implements DynamiteModule.b {
+    i() {
+    }
+
+    @Override // com.google.android.gms.dynamite.DynamiteModule.b
+    public final DynamiteModule.b.C0397b a(Context context, String str, DynamiteModule.b.a aVar) {
+        int iA;
+        DynamiteModule.b.C0397b c0397b = new DynamiteModule.b.C0397b();
+        int iB = aVar.b(context, str);
+        c0397b.f31982a = iB;
+        int i10 = 1;
+        int i11 = 0;
+        if (iB != 0) {
+            iA = aVar.a(context, str, false);
+            c0397b.f31983b = iA;
+        } else {
+            iA = aVar.a(context, str, true);
+            c0397b.f31983b = iA;
+        }
+        int i12 = c0397b.f31982a;
+        if (i12 == 0) {
+            if (iA == 0) {
+                i10 = 0;
+            }
+            c0397b.f31984c = i10;
+            return c0397b;
+        }
+        i11 = i12;
+        if (i11 >= iA) {
+            i10 = -1;
+        }
+        c0397b.f31984c = i10;
+        return c0397b;
+    }
+}
